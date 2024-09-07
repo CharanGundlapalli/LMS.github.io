@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Styles for header */
+header {
+    background-color: #333; /* Black background for the header */
+    color: white; /* White text color */
+    padding: 22.44px 0; /* Adjusted padding to achieve the desired height */
+    text-align: center;
+}
+
+.header-content {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 0 10px 0; /* Space between the title and the navigation */
+    font-size: 42px; /* Increased font size for the header text */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to align items inline */
+    justify-content: center; /* Center the navigation items */
+}
+
+header nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+header nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Styles for login container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 45.36px 20px; /* Adjusted padding for desired height */
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container form {
+    margin-top: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #555;
+}
+
+/* Styles for main content */
+main {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
